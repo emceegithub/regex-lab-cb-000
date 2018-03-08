@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  result_array = string2.scan(/\b[AEIOUaeiou][A-Za-z]*\b/)
+  result_array = word.scan(/\b[AEIOUaeiou][A-Za-z]*\b/)
   if word == result_array[0].to_s
     return true
   else
